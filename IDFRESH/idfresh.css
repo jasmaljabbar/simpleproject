@@ -50,6 +50,7 @@ body{
 }
 #green{
     color:#16a695;
+    cursor: pointer;
 }
 #red{
     color: red;
@@ -262,6 +263,151 @@ body{
     
 
 }
+.header6 {
+    display: flex;
+    background-image:url("https://www.idfreshfood.com/wp-content/uploads/2017/09/socialbg-2.jpg") ;
+    width:100%;
+    height: 520PX;
+    position: relative;
+    
+}
+#social{
+    position: absolute;
+    color: #5e351d;
+    font-family: rugsnatcher;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 66px;
+    padding-top: 25px;
+    padding-left: 200px;
+}
+.yt{
+    /* position: relative;
+    position: fixed; */
+    display: flex;
+    margin-top: 125px;
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    /* background-color: aquamarine; */
+}
+#yt1{
+    position: absolute;
+    width: 30%;
+    height: 310px;
+    margin-top: 125px;
+    
+}
+#yt2{
+    position: absolute;
+    width: 50%;
+    height: 310px;
+    margin-top: 125px;
+    margin-left:760px;
+    /* background-color: blue; */
+
+}
+#ytt{
+    padding-left: 175px;
+}
+#yyt{
+    padding-left: 0px;
+}
+.header7{
+    display: flex;
+    width: 100%;
+    height: 226.85px;
+    background-color: #000;
+}
+.end{
+    /* display: flex; */
+   
+   
+    padding-left: 100px;
+    position: absolute;
+    
+}
+.co1{
+    cursor: pointer;
+    margin-top:40PX ;
+    margin-left: 500px;
+    position: absolute;
+    width: 1140px;
+    height: 31.56px;
+    line-height: 18.571PX;
+    font-family:Gotham Lights;
+    color: #ffffff;
+    opacity: .5;
+    font-size: 13px;
+    font-weight: 400;
+    align-items: center;
+    /* background-color: #16a695; */
+}
+.co2{
+    cursor: pointer;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 525px;
+    position: absolute;
+    width: 1140px;
+    height: 31.56px;
+    line-height: 18.571PX;
+    font-family:Gotham Lights;
+    color: #ffffff;
+    opacity: .5;
+    font-size: 13px;
+    font-weight: 400;
+    /* background-color: brown; */
+}
+.co3{
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 450px;
+    position: absolute;
+    width: 1140px;
+    height: 31.56px;
+    line-height: 18.571PX;
+    font-family:Gotham Lights;
+    color: #ffffff;
+    opacity: .5;
+    font-size: 13px;
+    font-weight: 400;
+    align-items: center;
+    /* background-color:darkgoldenrod; */
+}
+#i1 {
+    display: flex;
+    margin-top: 125px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    /* background-color: #fff; */
+}
+#youim{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 670px;
+}
+#by{
+    /* position: absolute; */
+    font-family:Gotham Lights;
+    font-size: 13px;
+    font-weight: 400;
+    opacity:.5 ;
+    color: #fff;
+    padding-left: 695px; 
+ 
+
+}
+.finel{
+    width: 100%;
+    height: 20px ;
+    /* background-color: #fff; */
+    margin-top: 175px;
+}
+
 
 
 
