@@ -24,7 +24,13 @@ body{
     position: absolute;
     width: 175px;
     height: 81.04;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     /* background-color: rgb(47, 124, 192); */
+}
+.logo:hover{
+    /* width: 180px;
+    height: 86.04; */
+    transform:scale(1.04); 
 }
 .products{
     display: flex;
@@ -39,9 +45,17 @@ body{
     color:#fff;
     /* background-color: aqua; */
     margin-left: 850px;
+    cursor: pointer;
+}
+
+.products a:hover{
+    text-decoration: underline;
 }
 .vedio video{
     width: 100%;
+    margin-top: 69px;
+    margin-bottom: -10px;
+
 }
 .shop {
    
@@ -180,7 +194,7 @@ body{
 #or{
     /* display: flex; */
     position: absolute;
-    width: 336px;
+    width: 536px;
     height: 217.65px;
     /* background-color: #000; */
     margin-left: 900px;
@@ -197,7 +211,7 @@ body{
 }
 #or h3{
     color: #fff;
-    font-family:Rubik’s on Social Media;
+    font-family:Rubik variablefont;
     font-size: 16px;
     font-weight: 400;
     margin-left: 56px;
@@ -330,4 +344,193 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.yellow{ 
+    display: flex;
+    width: 100%;
+    height: 555px;
+    background-color:rgb(255, 225, 0);
+}
+#phone{
+    width: 400px;
+    height: 315px;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    margin-left: 230px;
+}
+#download{
+    width: 447.99px;
+    height: 209.8px;
+    /* background-color: aquamarine; */
+    margin-top: 150px;
+    margin-left: 300px;    
+}
+#download h1{
+    font-family:Rubik variablefont;
+    font-size: 28px;
+    font-weight: 600;  
+}
+#download h5{
+    padding-top: 30px;
+    font-family:Rubik variablefont;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+#download button{
+    margin-top: 50px;
+    margin-left: 0%;
+    width:300px;
+    height: 50px;
+    font-size: 0;
+    font-family:Rubik variablefont;
+    font-size: 19.2px;
+    font-weight: 800;
+    background-color: rgb(0, 83, 161);
+    border-width: 3.5px;
+    border-color: #fff;
+    border-radius: 11px;
+    color: #fff;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#download button:hover{
+    background-color: #fff;
+    color: rgb(0, 83, 161) ;
+}
+.black{
+    
+    width: 100%;
+    height: 194px;
+    background-color: rgb(20, 17, 15);
+    display: grid;
+    place-items: center;
+}
+#logofb{
+    display: flex;
+    width: 1200px;
+    height: 98px;
+    /* background-color: #fff; */
+    
+}
+#spin{
+    display: flex;
+    width: 76px;
+    height: 61.83px;
+    /* background-color: #fd7e14; */
+}
+#logofb td{
+    width: 100px;
 
+}
+table{
+   width: 300px;
+}
+#content{
+    
+    font-family:Rubik variablefont ;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 432px;
+    height: 98px;
+    color: #fff;
+}
+#content a{
+    cursor: pointer;
+}
+.end  {
+    justify-content: space-between;
+    display:flex ;
+    width: 400px;
+    height: 98px;
+    /* background-color: #0053a1; */
+    margin-left: 200px;
+    align-items: center;
+
+}
+#end1{
+    cursor: pointer;
+    /* background-color: #00a23a; */
+    width: 80px;
+    height: 58px;
+}
+
+#end5{
+    
+    /* background-color: #00a23a; */
+    width: 80px;
+    height: 58px;
+}
+#end2{
+   
+    /* background-color: #449561; */
+    width: 80px;
+    height: 58px;
+}
+#end3{
+    
+    /* background-color: #a4e122; */
+    width: 80px;
+    height: 58px;
+}
+#end4{
+    
+    /* background-color: #2982b6; */
+    width: 80px;
+    height: 58px;
+}
+#end1 img:hover{
+    width: 45px;
+    height: 45px;
+}
+#end2 img{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+#end2 img:hover{
+    width: 45px;
+    height: 45px;
+}
+#end3 img{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+#end3 img:hover{
+    width: 45px;
+    height: 45px;
+}
+#end4 img{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+#end4 img:hover{
+    width: 45px;
+    height: 45px;
+}
+#end5 img{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+#end5 img:hover{
+    width: 45px;
+    height: 45px;
+}
+.end h5{
+    margin-top: 10px;
+}
+#spinmaster{
+    margin-left: -400px;
+    margin-top: 71px;
+    width: 400px;
+    height:25px ;
+    /* background-color: #fd7e14; */
+    font-family:Rubik variablefont ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
